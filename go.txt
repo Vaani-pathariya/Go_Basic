@@ -1,0 +1,80 @@
+the first step is to initialise a go module by writing the following :
+go mod init <folder name>
+"fmt" is a package for printing something
+To execute the command in go , type in the cmd or terminal :
+go run <file_name>
+%v stands for variable name
+%T is used for variable data type
+arrays and slices are also some commonly used data types
+##### In go we donot heve different types of loops ,we only have one loop called the for loop 
+--------------------------------------------------------------------------------------------------------
+Short cut for making a slice :
+firstNames :=[]string{}
+---------------------------------------------------------------------------
+This for loop has multiple types :
+1.infinite loop :
+syntax:
+for condition (if any ){
+
+    //commands to be run infinite number of times
+}
+2.for-each
+for index,variable :=range bookings{
+    var names=strings.fields(booking) // this function splits the array on spaces (" ")
+    var firstname=names[0]
+}
+for the abouve code the index variable is not used in the loop so the following is done :
+for _,variable :=range bookings{
+    var names=strings.fields(booking) 
+    var firstname=names[0]
+}
+_ means the variable is not used within the loop and thus is just their to satisfy the condition of the for-each loop
+
+-------------------------
+importing multiple packages is done the following way:
+import(
+    "fmt"
+    "string"
+)
+* The ever used : if -else condition
+if inta==10{
+    \\
+    \\
+    break
+}
+else if is also available
+---------------------------------------------------
+strings.contains(email,"@") this is the expresstion used to check if a "string"
+ is present in the first argument string 
+=> Switch statement is also present in Switch
+city:="london"
+Switch city{
+    case "New York" :
+    /////////code 
+    /////
+    case "Paris","Goa": 
+    and so on
+    default
+}
+functions
+func greetUsers()return datatype (for eg []string){
+    //////code 
+}
+in go we can return multiple return values
+#*#PACKAGE LEVEL VARAIBLES
+these varaibles are declared outside the main function 
+these varaibles cannot be declared by a short cut
+make a different file with the same package and add fuc commont to all the processes there and then run by calling all the files belonging to the package
+to make the fuction be available without export statement ,capitalise the first letter of the function
+---------------------------------------------------------
+Defining a map(in this the data type is ketp same )
+var userDAta=make(map[string]string)-this gives an empty map
+strconv.FormatUint() is a function used to convert datatype
+----------------------------------------------------------
+type <structure_name> struct {
+    for mixed data types
+}
+type is a keyword to be written as it is and it tells the compiler that it is a user Defined structure_name
+*fmt.Sprintf()
+go keyword **********************
+ 
