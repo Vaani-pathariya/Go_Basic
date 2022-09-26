@@ -10,7 +10,7 @@ arrays and slices are also some commonly used data types
 --------------------------------------------------------------------------------------------------------
 Short cut for making a slice :
 firstNames :=[]string{}
----------------------------------------------------------------------------
+--------------------------------------------------------------------------
 This for loop has multiple types :
 1.infinite loop :
 syntax:
